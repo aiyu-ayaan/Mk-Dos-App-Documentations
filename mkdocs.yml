@@ -2,7 +2,7 @@ site_name: BIT App
 
 theme:
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - search.suggest
     - search.highlight
@@ -51,11 +51,25 @@ markdown_extensions:
 repo_url: https://github.com/BIT-Lalpur-App/BIT-App
 repo_name: BIT-App
 plugins:
-  - search
+   - glightbox
+   - search
+   - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
 
 nav:
-  - Home:
-    - 'index.md'
-    - Syllabus: 'syllabus/syllabus.md'        
-  - Code:
-    - Code: 'code/code.md'
+  - BIT App: 'index.md'
+  - Api Reference: 'app/index.html'
+  - Change Logs: 'https://github.com/BIT-Lalpur-App/BIT-App/releases'
+  - Image Gallery: 'gallery.md'
+    
