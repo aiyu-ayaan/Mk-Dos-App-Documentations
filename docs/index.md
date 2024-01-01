@@ -1,8 +1,8 @@
 # Welcome to BIT APP
 
-<!-- ![Image title](https://firebasestorage.googleapis.com/v0/b/theaiyubit.appspot.com/o/Utils%2Fapp.png?alt=media&token=fd9c6b3a-12c5-4d9a-9800-7738038473ea){ loading=lazy height=200px style="display: block; margin: 0 auto" } -->
+![Image title](https://firebasestorage.googleapis.com/v0/b/theaiyubit.appspot.com/o/Utils%2Fapp.png?alt=media&token=fd9c6b3a-12c5-4d9a-9800-7738038473ea){ loading=lazy height=200px style="display: block; margin: 0 auto" }
 
-![Image title](https://dummyimage.com/600x400/eee/aaa){ loading=lazy height=200px style="display: block; margin: 0 auto" }
+<!-- ![Image title](https://dummyimage.com/600x400/eee/aaa){ loading=lazy height=200px style="display: block; margin: 0 auto" } -->
 
 `Simple and easy to use app for BIT students.`
 
