@@ -1,18 +1,19 @@
 site_name: BIT App
 
 theme:
-  name: material
   features:
-    - navigation.instant
-    - navigation.instant.prefetch  
     - navigation.tabs
-    - toc.integrate
+    - navigation.sections
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
     - content.code.copy
-    - header.autohide
+    - content.code.select
+    - content.code.annotate
+    
+
+  name: material
+  icon:
+    repo: fontawesome/brands/git-alt
   language: en
   palette:
     - scheme: default
@@ -20,13 +21,13 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
       primary: teal
-      accent: green
+      accent: teal
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
       primary: teal
-      accent: green
+      accent: teal
 extra:
   social:
    - icon: fontawesome/brands/github
@@ -36,3 +37,25 @@ extra:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+repo_url: https://github.com/BIT-Lalpur-App/BIT-App
+repo_name: BIT-App
+plugins:
+  - search
+
+nav:
+  - Home:
+    - 'index.md'
+    - Syllabus: 'syllabus/syllabus.md'        
+  - Code:
+    - Code: 'code/code.md'
