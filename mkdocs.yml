@@ -1,0 +1,38 @@
+site_name: BIT App
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch  
+    - navigation.tabs
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - header.autohide
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: teal
+      accent: green
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: green
+extra:
+  social:
+   - icon: fontawesome/brands/github
+     link: https://www.github.com/aiyu-ayaan
+   - icon: fontawesome/brands/instagram
+     link: https://www.instagram.com/bit.app_
+markdown_extensions:
+  - attr_list
+  - md_in_html
